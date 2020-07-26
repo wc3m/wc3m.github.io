@@ -15,7 +15,7 @@ let
     });
   };
 in pkgs.mkShell {
-  buildInputs = with pkgs; [ libxc openblas gfortran pythonEnv ];
+  buildInputs = with pkgs; [ libxc openblas gfortran ];
   shellHook = ''
     mkdir -p "$(pwd)/_libs"
     export R_LIBS_USER="$(pwd)/_libs"
