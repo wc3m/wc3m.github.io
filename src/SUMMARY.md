@@ -4,7 +4,7 @@
 
 # Week I: How Computers See Reality
 
-- [Lecture 1](./lecture_1.md)
+- [Lecture 1: Building Blocks](./lecture_1.md)
 - [Lecture 2]()
 - [Lecture 3]()
 
@@ -12,4 +12,4 @@
 
 - [Lecture 4]()
 
-[Glossary](./glossary.md)
+[Glossary]()
