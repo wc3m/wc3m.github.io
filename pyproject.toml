@@ -10,6 +10,11 @@ python = "^3.8"
 cython = "^0.29.21"
 poetry = "^1.0.10"
 jupyter-book = "^0.7.1"
+matplotlib = "^3.3.0"
+pyppeteer = "^0.2.2"
+jupytext = "^1.5.2"
+jupyter = "^1.0.0"
+jupyterlab = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
 
