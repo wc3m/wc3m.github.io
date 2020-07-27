@@ -1,4 +1,4 @@
-# About [![Build Status](https://travis-ci.com/HaoZeke/WC3m-wlf4.svg?branch=master)](https://travis-ci.com/HaoZeke/WC3m-wlf4)
+# About [![Build Status](https://travis-ci.com/wc3m/wc3m.github.io.svg?branch=src)](https://travis-ci.com/wc3m/wc3m.github.io)
 
 The source for the class notes of [Water, Chemicals and more with Computers for Chemistry](https://haozeke.github.io/WC3m-wlf4) (WC3m) which was part of the [fourth wave learning festival of 2020](http://www.wavelf.org/ij6TzydE3kTSF8cwwIUj).
 
