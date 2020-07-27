@@ -1,6 +1,7 @@
 # Summary
 
 [Overview](./overview.md)
+[Logistics](./logistics.md)
 
 # Week I: How Computers See Reality
 
