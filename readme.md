@@ -4,7 +4,7 @@ The source for the class notes of [Water, Chemicals and more with Computers for 
 
 ## Running
 
-This is based off of `poetry2nix`, `nix`, `niv`, and also `jupyter-book`, with a `lorri` enabled shell setup. If you have `nix` and `lorri` set up, then running the following will just work:
+This is based off of `nix`, `niv`, and also `mdbook`, with a `lorri` enabled shell setup. If you have `nix` and `lorri` set up, then running the following will just work:
 
 ```bash
 lorri shell
