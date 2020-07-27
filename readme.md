@@ -1,6 +1,6 @@
 # About
 
-The source for the class notes of [Water, Chemicals and more with Computers for Chemistry](http://www.wavelf.org/ij6TzydE3kTSF8cwwIUj) (WC3m)
+The source for the class notes of [Water, Chemicals and more with Computers for Chemistry](https://haozeke.github.io/WC3m-wlf4) (WC3m) which was part of the [fourth wave learning festival of 2020](http://www.wavelf.org/ij6TzydE3kTSF8cwwIUj).
 
 ## Running
 
