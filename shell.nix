@@ -15,7 +15,15 @@ let
     });
   };
 in pkgs.mkShell {
-  buildInputs = with pkgs; [ libxc direnv mdbook openblas gfortran ];
+  buildInputs = with pkgs; [
+    libxc
+    direnv
+    mdbook
+    openblas
+    gfortran
+    rustc
+    cargo
+  ];
   shellHook = ''
     mkdir -p "$(pwd)/_libs"
     export R_LIBS_USER="$(pwd)/_libs"
