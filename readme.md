@@ -8,6 +8,7 @@ This is based off of `nix`, `niv`, and also `mdbook`, with a `lorri` enabled she
 
 ```bash
 lorri shell
+mdbook serve
 ```
 
 ## License
