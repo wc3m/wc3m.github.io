@@ -1,0 +1,6 @@
+[book]
+authors = ["Rohit Goswami"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Water, Chemicals and more with Computers for Chemistry"
