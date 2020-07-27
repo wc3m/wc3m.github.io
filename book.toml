@@ -1,6 +1,12 @@
 [book]
-authors = ["Rohit Goswami"]
+authors = ["Rohit Goswami","Amrita Goswami"]
 language = "en"
 multilingual = false
 src = "src"
 title = "Water, Chemicals and more with Computers for Chemistry"
+description = "The lecture notes and materials for wc3m"
+
+[output.html]
+default-theme = "Rust"
+mathjax-support = true
+curly-quotes = true
