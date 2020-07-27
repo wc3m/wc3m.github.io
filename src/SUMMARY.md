@@ -6,6 +6,7 @@
 # Week I: How Computers See Reality
 
 - [Lecture 1: Building Blocks](./lecture_1.md)
+  - [Slides and Video](./lec1sv.md)
 - [Lecture 2]()
 - [Lecture 3]()
 
