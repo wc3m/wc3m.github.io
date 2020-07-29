@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js rust">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Overview - Water, Chemicals and more with Computers for Chemistry</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="The lecture notes and materials for wc3m">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+        <link rel="stylesheet" href="css/custom.css">
+        
+
+        
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "rust";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('rust')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="overview.html">Overview</a></li><li class="chapter-item expanded affix "><a href="logistics.html">Logistics</a></li><li class="chapter-item expanded affix "><li class="part-title">Week I: How Computers See Reality</li><li class="chapter-item expanded "><a href="lecture_1.html"><strong aria-hidden="true">1.</strong> Lecture 1: Building Blocks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lec1sv.html"><strong aria-hidden="true">1.1.</strong> Slides and Video</a></li><li class="chapter-item expanded "><strong aria-hidden="true">1.2.</strong> Extra Material</li></ol></li><li class="chapter-item expanded "><strong aria-hidden="true">2.</strong> Lecture 2: Time and Code</li><li><ol class="section"><li class="chapter-item expanded "><a href="lec2sv.html"><strong aria-hidden="true">2.1.</strong> Slides and Video</a></li><li class="chapter-item expanded "><strong aria-hidden="true">2.2.</strong> Extra Material</li></ol></li><li class="chapter-item expanded "><strong aria-hidden="true">3.</strong> Lecture 3</li><li class="chapter-item expanded affix "><li class="part-title">Week II: Learning to Speak Computer</li><li class="chapter-item expanded "><strong aria-hidden="true">4.</strong> Lecture 4</li><li class="chapter-item expanded affix ">Glossary</li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Water, Chemicals and more with Computers for Chemistry</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1><a class="header" href="#overview-of-wc3m" id="overview-of-wc3m">Overview of WC3M</a></h1>
+<p>Part of the <a href="http://www.wavelf.org/ij6TzydE3kTSF8cwwIUj">fourth Wave Learning Festival</a>, a course on <strong>Water, Chemicals and more with Computers for Chemistry</strong>, better known as WC3m. A computational chemistry course aimed at middle school students.</p>
+<h2><a class="header" href="#course-description" id="course-description">Course Description</a></h2>
+<p>This course is about learning the superpowers needed to make rules which are consistent with the world around us and then using computers to simulate reality. Imagine watching a drop of water freeze, then programming a computer to do just that, and then extending it to a huge block of complicated liquids! We will cover the basics of atoms, molecules and the granular nature of the world, as well as see how naturally these concepts can be expressed in the language of computers and math. By the end of this course you will have a strong intuitive understanding of chemistry and computers, with the ability to critically discuss scientific directions. No prior information of coding or chemistry required!</p>
+<h2><a class="header" href="#teachers" id="teachers">Teachers</a></h2>
+<h3><a class="header" href="#rohit-goswami" id="rohit-goswami">Rohit Goswami</a></h3>
+<ul>
+<li><a href="https://scholar.google.com/citations?user=36gIdJMAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a></li>
+</ul>
+<blockquote>
+<p>By day, Rohit is a doctoral researcher at the University of Iceland working on topics at the intersection of quantum chemistry and machine learning under the aegis of the Faculty of Physical Sciences. At other times, he can be found dispensing (often unasked) <a href="https://rgoswami.me">wisdom online</a> and also volunteering to spread the gospel of reproducible and accessible computing. As a certified Carpentries instructor and maintainer, he is excited to reach out further to the wider community and provide insights into the latest tooling advances. Bitten early by the teaching bug, he is a passionate advocate of the beauty and universal accessibility of knowledge and information, and has taught for the Carpentries (as a instructor and maintainer) along with other engagements. A true product of the internet age glut of information has instilled him with a belief that all topics can be best understood with the help of computers and is excited to be able to bring the physical world (of molecules, water, reactions and more!) to be beholden to his students.</p>
+</blockquote>
+<h3><a class="header" href="#amrita-goswami" id="amrita-goswami">Amrita Goswami</a></h3>
+<ul>
+<li><a href="https://scholar.google.com/citations?user=mviv92EAAAAJ&amp;hl=en">Google Scholar</a></li>
+</ul>
+<blockquote>
+<p>Amrita is a PhD student at the Indian Institute of Technology in the Department of Chemical Engineering. Her work focuses on high performance computing for nucleation simulations including systems undergoing shear and confined systems. The ability to study complex systems from first principles with the help of computers and to be able to reason rules out which directly impact the world has captivated her from an early age, and she believes an early understanding of these concepts are both crucial and (can be) easily accessible. She has been a teaching assistant at her institute for several years, and looks forward to interacting and teaching students who would like to learn more about the world and how to control it!</p>
+</blockquote>
+<h2><a class="header" href="#syllabus" id="syllabus">Syllabus</a></h2>
+<ul>
+<li>What are the building blocks of reality?
+<ul>
+<li>Basic Terms and Definitions
+<ul>
+<li>Electrons</li>
+<li>Atoms and Molecules</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Time and Space</li>
+<li>Simulations
+<ul>
+<li>Newton’s Laws</li>
+</ul>
+</li>
+<li>Trajectories</li>
+<li>Equilibria
+<ul>
+<li>System state</li>
+</ul>
+</li>
+<li>Mathematical modeling
+<ul>
+<li>Equations</li>
+<li>Constraints</li>
+</ul>
+</li>
+<li>Programming Basics (Python+Colab)
+<ul>
+<li>Scopes</li>
+<li>Variables</li>
+</ul>
+</li>
+<li>Functions
+<ul>
+<li>Objects</li>
+<li>Libraries</li>
+</ul>
+</li>
+<li>Nobel Gases (pyLAMMPS and ASE)
+<ul>
+<li>Argon and the Lennard Jones</li>
+</ul>
+</li>
+<li>Potential Energy Surfaces
+<ul>
+<li>Equilibration</li>
+<li>Intuition for many dimensions</li>
+</ul>
+</li>
+<li>Initial states and equilibrium
+<ul>
+<li>Quantum Considerations</li>
+<li>Coarse-graining and PES</li>
+</ul>
+</li>
+<li>Numerical Methods (Physics to a Computer)
+<ul>
+<li>Calculus → Difference methods</li>
+</ul>
+</li>
+<li>Visualizations
+<ul>
+<li>OVITO</li>
+<li>VMD and ASE</li>
+</ul>
+</li>
+<li>Summary statistics</li>
+<li>Water
+<ul>
+<li>Introduction</li>
+<li>Systems</li>
+<li>Model Zoo</li>
+</ul>
+</li>
+<li>High Performance Computing
+<ul>
+<li>Heterogeneous Computing</li>
+</ul>
+</li>
+<li>Limiting Approximations for the Real World
+<ul>
+<li>How to (not) simulate a truck</li>
+</ul>
+</li>
+<li>The time-length scale issue
+<ul>
+<li>Localized phases</li>
+</ul>
+</li>
+<li>Confinement</li>
+<li>Reactions
+<ul>
+<li>Equilibrium constraints</li>
+</ul>
+</li>
+<li>The role and (false) supremacy of machine learning
+<ul>
+<li>Machine learning to a computer</li>
+<li>Functions all the way down</li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+                            <a rel="next" href="logistics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+                    <a rel="next" href="logistics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+        <!-- Google Analytics Tag -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109503488-17"></script>
+        <script type="text/javascript">
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-109503488-17');
+        </script>
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
