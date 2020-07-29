@@ -15,11 +15,17 @@ before_script:
 script:
   - mdbook build  && mdbook test
 
+# safelist
+branches:
+  only:
+    - src
+
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: ./book
   keep-history: false
+  target_branch: master
   on:
     branch: src
