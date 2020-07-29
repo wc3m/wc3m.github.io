@@ -1,8 +1,8 @@
-# W1L1: Video & Slides
+# W1L2: Video & Slides
 
 ## Video
 
-The video is meant to be watched after a quick run through of [the notes](./lecture_1.md):
+The video is meant to be watched after a quick run through of [the notes](./lecture_2.md):
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f5YCTJmtW-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
