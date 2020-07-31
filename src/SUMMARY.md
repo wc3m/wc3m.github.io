@@ -10,8 +10,10 @@
   - [Extra Material]()
 - [Lecture 2: Time and Code]()
   - [Slides and Video](./lec2sv.md)
-  - [Extra Material]()
+  - [Extra Material](./lec2ex.md)
 - [Lecture 3]()
+  - [Slides and Video]()
+  - [Extra Material]()
 
 # Week II: Learning to Speak Computer
 
