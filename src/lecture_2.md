@@ -38,3 +38,5 @@ We will return to this concept later, after we formalize our understanding of ph
 ## Time-steps
 
 For our description above, we did not mention the units of time we are interested in. This is because the unit depends on the nature of the process we are interested in.
+
+This is probably best seen in [the video, or the jamboard](./lec2sv.md).
