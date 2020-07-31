@@ -11,7 +11,7 @@
 - [Lecture 2: Time and Code]()
   - [Slides and Video](./lec2sv.md)
   - [Extra Material](./lec2ex.md)
-- [Lecture 3]()
+- [Lecture 3: Simulations]()
   - [Slides and Video]()
   - [Extra Material]()
 
