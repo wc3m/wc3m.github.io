@@ -1,4 +1,4 @@
-# Overview of WC3M
+# Overview of WC3m
 
 Part of the [fourth Wave Learning Festival](http://www.wavelf.org/ij6TzydE3kTSF8cwwIUj), a course on **Water, Chemicals and more with Computers for Chemistry**, better known as WC3m. A computational chemistry course aimed at middle school students.
 
