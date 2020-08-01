@@ -1,4 +1,4 @@
-# Lecture II: Simulations
+# Lecture III: Naive Modeling
 
 ## Modeling
 

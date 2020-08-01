@@ -10,12 +10,9 @@ As described previously, do note the following:
 > Feel free however, to use the same hypothesis space to highlight and annotate the reading material! We will answer all questions there (this goes for other course-related reading material you might find as well).
 
 | **Label** | **Expansion** |
-| UG | Undergraduate |
-| Intro | Introductory |
-
-## Mathematical Intuition
-
-- [This subsection from CLP-1](http://www.math.ubc.ca/~CLP/CLP1/clp_1_dc/subsection-2.html) (no exercises) on visualizing tangents
+| --------- | ------------- |
+| UG        | Undergraduate |
+| Intro     | Introductory  |
 
 ## Computer Science
 
