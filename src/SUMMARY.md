@@ -7,7 +7,6 @@
 
 - [Lecture 1: Building Blocks](./lecture_1.md)
   - [W1L1: Slides and Video](./lec1sv.md)
-  - [W1L1: Extra Material]()
 - [Lecture 2: Time and Code](./lecture_2.md)
   - [W1L2: Slides and Video](./lec2sv.md)
   - [W1L2: Extra Material](./lec2ex.md)
