@@ -6,14 +6,14 @@
 # Week I: How Computers See Reality
 
 - [Lecture 1: Building Blocks](./lecture_1.md)
-  - [Slides and Video](./lec1sv.md)
-  - [Extra Material]()
+  - [W1L1: Slides and Video](./lec1sv.md)
+  - [W1L1: Extra Material]()
 - [Lecture 2: Time and Code](./lecture_2.md)
-  - [Slides and Video](./lec2sv.md)
-  - [Extra Material](./lec2ex.md)
-- [Lecture 3: Simulations]()
-  - [Slides and Video]()
-  - [Extra Material]()
+  - [W1L2: Slides and Video](./lec2sv.md)
+  - [W1L2: Extra Material](./lec2ex.md)
+- [Lecture 3: Simulations](./lecture_3.md)
+  - [W1L3: Slides and Video](./lec3sv.md)
+  - [W1L3: Extra Material](./lec3ex.md)
 
 # Week II: Learning to Speak Computer
 
