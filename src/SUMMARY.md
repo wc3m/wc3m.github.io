@@ -17,19 +17,19 @@
 # Week II: Learning to Speak Computer
 
 - [Lecture 4: Writing a Simulation]()
-  - [W2L4: Slides and Video]()
+  - [W2L4: Slides and Video](./lec04sv.md)
   - [W2L4: Extra Material]()
 - [Lecture 5: Physics and Code]()
-  - [W2L5: Slides and Video]()
+  - [W2L5: Slides and Video](./lec05sv.md)
   - [W2L5: Extra Material]()
 - [Lecture 6: Numerical Newton]()
-  - [W2L6: Slides and Video]()
+  - [W2L6: Slides and Video](./lec06sv.md)
   - [W2L6: Extra Material]()
 
 # Week III: Physics and Scales
 
 - [Lecture 7: Statistics and States]()
-  - [W3L7: Slides and Video]()
+  - [W3L7: Slides and Video](./lec07sv.md)
   - [W3L7: Extra Material]()
 - [Lecture 8: Multi-Scale Models]()
   - [W3L8: Slides and Video]()

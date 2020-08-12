@@ -8,9 +8,14 @@ The video is meant to be watched after a quick run through of [the notes](./lect
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f5YCTJmtW-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## Jamboard
+
+- [In Class](https://jamboard.google.com/d/1TCQ6vsnaNCAjPSwgoMV6mXDZfqz1pOeOTMl7brk-6s0/edit?usp=sharing)
+- [Pre-recorded](https://jamboard.google.com/d/1PKDJfvteB4NCwg4mFhyayKwq8jIeJ63jyrMGEqrILIo/edit?usp=sharing)
+
 ## Slides
 
-The view only link to the slides [is here](https://docs.google.com/presentation/d/1oU2AzdoeldyLow2Z-CbIgWVDAzFvBHsI-LxxrvX1ntc/edit?usp=sharing). There was also a [jamboard here](https://jamboard.google.com/d/1PKDJfvteB4NCwg4mFhyayKwq8jIeJ63jyrMGEqrILIo/edit?usp=sharing), along with another used during the class [here](https://jamboard.google.com/d/1TCQ6vsnaNCAjPSwgoMV6mXDZfqz1pOeOTMl7brk-6s0/edit?usp=sharing).
+- [Google Slides](https://docs.google.com/presentation/d/1oU2AzdoeldyLow2Z-CbIgWVDAzFvBHsI-LxxrvX1ntc/edit?usp=sharing) (embeded below)
 
 <div class="iframe-container">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQXr-Ol4-83n9bjdELOOdfAtOhBFefDm-g-NsdAA6mhIx4OvcC4JLZztHTzA-wWOaCgl0fYExw2yw4U/embed?start=false&loop=false&delayms=5000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
